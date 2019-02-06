@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'frontend';
+
+  visible = true;
+
+  toggleDiv() {
+    this.visible =! this.visible
+  }
 }
