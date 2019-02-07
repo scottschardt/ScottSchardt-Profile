@@ -7,8 +7,24 @@
   <html lang="en" class="full-height"></html>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 </head>
 <body>
+    <script type="text/javascript">
+      $(document).ready(function(){       
+      var scroll_pos = 0;
+      $(document).scroll(function() { 
+        scroll_pos = $(this).scrollTop();
+        if(scroll_pos > 1100) {
+            $(".font").addClass("fontscrolled");
+        } else {
+            $(".font").removeClass("fontscrolled");
+          } 
+        });
+      });
+     </script>
   <app-root></app-root>
 </body>
 </html>

@@ -1,14 +1,14 @@
-a{
-    font-style: white;
+.intro-header {
+    
+    height: unset !important;
+  }
+
+ 
+font{
+    transition: ease-in
 }
-
-.nav-link {
-    color: white;
+.fontscrolled {
+    color: rgb(168, 33, 33);
+    transition: ease-in;
+    font-weight: 450;
 }
-
-.nav-item {
-    margin-left: 3%;
-    margin-right: 3%;
-}
-
-

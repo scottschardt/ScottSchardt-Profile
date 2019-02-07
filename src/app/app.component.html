@@ -1,52 +1,5 @@
 <header class="intro-header justify-content-center" id="top">
-    <mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
-      <mdb-navbar-brand>
-
-      </mdb-navbar-brand>
-      <links>
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item waves-light" mdbWavesEffect>
-            <a class="nav-link" href="https://www.linkedin.com/in/scottschardt/">Linkedin</a>
-          </li>
-          <li class="nav-item waves-light" mdbWavesEffect>
-              <a class="nav-link" href="https://github.com/scottschardt">Github</a>
-            </li>
-          <li class="nav-item waves-light" mdbWavesEffect>
-            <a class="nav-link" href="#Experience">Experience</a>
-          </li>
-          <li class="nav-item waves-light" mdbWavesEffect>
-            <a class="nav-link" href="#About">About Me</a>
-          </li>
-          <li class="nav-item waves-light" mdbWavesEffect>
-              <a class="nav-link" href="#Contact">Contact</a>
-            </li>
-        </ul>
-
-      </links>
-    </mdb-navbar>
-  
-    <!-- Intro Section -->
-    <div class="view jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url(assets/building.jpg); background-attachment: fixed; height: 1200px;">
-      <div class="full-bg-img mask rgba-black-light">
-        <div class="container flex-center">
-          <div class="row pt-5 mt-3 w-100">
-            <div class="col-md-12">
-              <div class="text-center">
-                <h2 class="h1 h1-reponsive white-text font-up font-bold mb-3 wow fadeInDown" data-wow-delay="0.3s"><strong>Scott Schardt</strong></h2>
-                <hr class="hr-light mt-4 wow fadeInDown" data-wow-delay="0.4s">
-                <h5 class="font-up mb-5 white-text wow fadeInDown" data-wow-delay="0.4s"><strong>DEVELOPER</strong></h5>
-                <a mdbBtn color="white" outline="true" class="wow fadeInDown waves-light popup" data-wow-delay="0.4s"
-                  mdbWavesEffect (click)="toggleDiv()" href="assets/resume.pdf" download>Resume</a>
-                <a mdbBtn color="white" outline="true" class="wow fadeInDown waves-light" data-wow-delay="0.4s"
-                  mdbWavesEffect href="#About">About me</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
-  <app-about></app-about>
-  
-  
- 
+  <app-navbar></app-navbar>
+  <app-homepage></app-homepage>
+</header>
+<app-about></app-about>
